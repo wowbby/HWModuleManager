@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HWModuleManager_Example' do
+  pod 'HWModuleManager', :path => '../'
+
+  target 'HWModuleManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
